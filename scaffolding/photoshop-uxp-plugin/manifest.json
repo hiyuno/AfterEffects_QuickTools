@@ -1,0 +1,25 @@
+{
+  "id": "com.example.psplugin",
+  "name": "Photoshop Plugin",
+  "version": "1.0.0",
+  "main": "index.html",
+  "host": {
+    "app": "PS",
+    "minVersion": "24.0.0"
+  },
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "mainPanel",
+      "label": { "default": "Photoshop Plugin" },
+      "minimumSize": { "width": 230, "height": 200 },
+      "icons": [
+        { "width": 23, "height": 23, "path": "icons/icon.png", "scale": [1, 2], "theme": ["darkest", "dark", "medium", "light", "lightest"] }
+      ]
+    }
+  ],
+  "requiredPermissions": {
+    "clipboard": "readAndWrite"
+  },
+  "manifestVersion": 5
+}
