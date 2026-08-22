@@ -293,7 +293,7 @@
 
     function resolveToolMode() {
         var baseName = getCurrentScriptBaseName().toLowerCase();
-        if (baseName.indexOf("ae_tools_quick tools") !== -1) {
+        if (baseName.indexOf("ae_quick tools") !== -1) {
             return "quick";
         }
         if (baseName.indexOf("ae_tools_easing") !== -1) {
